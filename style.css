@@ -2,11 +2,26 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  text-align: center
+  text-align: center;
+  background-color: green;
 }
 
-h1 ~ a {
+nav a {
   padding: 10px 10px 10px 10px;
   background-color: gray;
 }
 
+figcaption {
+  font-size: 12px;
+}
+
+p#featured-property{
+  width: 800px;
+}
+
+#details div{
+  float:left;
+  display:block;
+  background-color:red;
+  width: 25%;
+}
